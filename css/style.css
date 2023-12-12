@@ -1,0 +1,367 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    cursor: url(../img/whiteBluePointer.cur), auto;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: "nimbus-sans-extended", sans-serif;
+    font-style: normal;
+    overflow: auto;
+    
+}
+
+header{
+    font-family: "nimbus-sans-extended", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: #0c0c0c;
+    cursor: url(../img/pinkStarCursor.cur), auto;
+}
+
+img{
+    height: 75vh;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    
+}
+
+.dayParagraph{
+    color: #fff;
+    max-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+@media (max-width:1920px) {
+
+    header{
+        height: 5%;
+    }
+
+    .dayParagraph{
+        width: 500px;
+    }
+
+}
+
+@media (min-width:1920px) {
+
+    header{
+        height: 5%;
+    }
+
+    .dayParagraph{
+        width: 500px;
+    }
+
+}
+
+@media (max-width:855px){
+
+    header{
+        margin-bottom: 10%;
+    }
+
+    .poster {
+        width: 75vw;
+    }
+
+    .arrow{
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media (min-width:855px){
+    header{
+        margin-bottom: 10%;
+    }
+
+    .poster {
+        width: 75vw;
+    }
+
+    .arrow{
+        width: 100px;
+    }
+}
+
+h1{
+    font-family: "nimbus-sans-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+.logoLanding{
+    height: 25vh;
+    margin-bottom: 1%;
+}
+
+.arrow{
+    width: 5vh;
+    max-width: fit-content;
+    height: fit-content;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    
+}
+
+.arrow:hover{
+    cursor: url(../img/pinkStarCursor.cur), auto;
+}
+
+.orangeButton{
+    width: 200px;
+    min-height: 50px;
+    background-color: #e2452a;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.orangeButton:hover {
+    background-color: #e02d0e;
+    cursor: url(../img/pinkStarCursor.cur), auto;
+    font-weight: 700;
+}
+
+.blackButton{
+    min-height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 1vh;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.blackButton:hover {
+    background-color: #571404;
+    cursor: url(../img/pinkStarCursor.cur), auto;
+    font-weight: 700;
+}
+
+.blackButton, .blackButton:active {
+    background-color: #0c0c0c;
+}
+
+.pinkButton{
+    min-height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 1vh;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.pinkButton:hover {
+    background-color: #ff7bac;
+    cursor: url(../img/pinkStarCursor.cur), auto;
+    font-weight: 700;
+}
+
+.pinkButton, .pinkButton:active {
+    background-color: #e93e58;
+}
+
+.greenButton{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 1vh;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.greenButton:hover {
+    background-color: #17e254;
+    cursor: url(../img/pinkStarCursor.cur), auto;
+    font-weight: 700;
+}
+
+.greenButton, .greenButton:active {
+    background-color: #4ef481;
+}
+
+#pinkGreenButton:hover{
+    background-color: #ee588f;
+}
+
+.description{
+    width: max-content;
+    height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.poster{
+    margin-top: 14vh;
+    height: 86vh;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.logoWhiteBlack, .logoPink, .logoGreenPink{
+    height: fit-content;
+    width: 50vh;
+    max-width: fit-content;
+    margin-left: 10vh;
+}
+
+.logoWhitePink{
+    margin-bottom: 2%;
+    width: max-content;
+    max-width: 100vh;
+    height: fit-content;
+}
+
+.pinkSection{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    max-width: 80vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.Landing{
+    background-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange{
+    background-color: #e2452a;
+}
+
+.blue{
+    background-color: #40a0f2;
+}
+
+.yellow{
+    background-color: #f1e83c;
+}
+
+.pink{
+    background-color: #ff7bac;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a{
+    height: max-content;
+    margin: 1rem;
+}
+
+.menuHover:hover{
+    color: #a1d4e4;
+}
+
+#textBlack, #dayThree{
+    color: #0c0c0c;
+}
+
+/* Nimbus Sans Light
+font-family: "nimbus-sans", sans-serif;
+font-weight: 300;
+font-style: normal;
+Nimbus Sans Light Italic
+font-family: "nimbus-sans", sans-serif;
+font-weight: 300;
+font-style: italic;
+Nimbus Sans Regular
+font-family: "nimbus-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+Nimbus Sans Regular Italic
+font-family: "nimbus-sans", sans-serif;
+font-weight: 400;
+font-style: italic;
+Nimbus Sans Bold
+font-family: "nimbus-sans", sans-serif;
+font-weight: 700;
+font-style: normal;
+Nimbus Sans Bold Italic
+font-family: "nimbus-sans", sans-serif;
+font-weight: 700;
+font-style: italic;
+Nimbus Sans Black
+font-family: "nimbus-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+Nimbus Sans Black Italic
+font-family: "nimbus-sans", sans-serif;
+font-weight: 900;
+font-style: italic;
+Nimbus Sans Cond L Regular
+font-family: "nimbus-sans-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+Nimbus Sans Cond L Bold
+font-family: "nimbus-sans-condensed", sans-serif;
+font-weight: 700;
+font-style: normal;
+Nimbus Sans Cond L Black
+font-family: "nimbus-sans-condensed", sans-serif;
+font-weight: 900;
+font-style: normal;
+Nimbus Sans Extd Light
+font-family: "nimbus-sans-extended", sans-serif;
+font-weight: 300;
+font-style: normal;
+Nimbus Sans Extd Regular
+font-family: "nimbus-sans-extended", sans-serif;
+font-weight: 400;
+font-style: normal;
+Nimbus Sans Extd Bold
+font-family: "nimbus-sans-extended", sans-serif;
+font-weight: 700;
+font-style: normal;
+Nimbus Sans Extd Black
+font-family: "nimbus-sans-extended", sans-serif;
+font-weight: 900;
+font-style: normal; */
