@@ -40,6 +40,10 @@ a:hover, #active:hover{
     color: #6b0606;
 }
 
+.trending-product{
+    margin-bottom: 10vh;
+}
+
 .products{
     display: grid;
     place-items: center;

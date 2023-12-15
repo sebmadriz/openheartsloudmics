@@ -1,104 +1,103 @@
 * {
-    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-
 body {
-    min-height: 100vh;
-    width: 100%;
-    background-color: #222222;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #222;
+  font-family: nimbus-sans-extended,sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
-
-header{
-    font-family: "nimbus-sans-extended", sans-serif;
-    font-weight: 900;
-    font-size: 1.5em;
-    width: 100%;
-    min-width: 560px;
+header {
+  font-family: nimbus-sans-extended,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.5em;
+  width: 100%;
+  min-width: 560px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  padding: 3%
+}
+a {
+  text-decoration: none;
+  color: #e2452a
+}
+h3 {
+  color: #fff
+}
+p {
+  color: #fff
+}
+img {
+  margin-bottom: 5vh;
+  width: auto;
+  height: 35vh;
+border-radius: 10%;
+}
+.dayOne{
     display: flex;
-    position: fixed;
-    align-items: center;
     justify-content: center;
-    padding: 3%;
 }
 
-a{
-    text-decoration: none;
-    color: #e2452a;
+.dayTwo{
+    display: flex;
+    justify-content: center;
 }
 
-.menu a{
-    height: max-content;
-    margin: 1em;
+.dayThree{
+    display: flex;
+    justify-content: center;
 }
-
-#active{
-    color: #bb1e02;
+.menu a {
+  height: max-content;
+  margin: 1em
 }
-
-a:hover, #active:hover{
-    color: #6b0606;
+.wrapper {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  gap: 10vh;
+  align-items: center;
+  justify-content: center
 }
-
-/* Nimbus Sans Light
-font-family: "nimbus-sans", sans-serif;
-font-weight: 300;
-font-style: normal;
-Nimbus Sans Light Italic
-font-family: "nimbus-sans", sans-serif;
-font-weight: 300;
-font-style: italic;
-Nimbus Sans Regular
-font-family: "nimbus-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-Nimbus Sans Regular Italic
-font-family: "nimbus-sans", sans-serif;
-font-weight: 400;
-font-style: italic;
-Nimbus Sans Bold
-font-family: "nimbus-sans", sans-serif;
-font-weight: 700;
-font-style: normal;
-Nimbus Sans Bold Italic
-font-family: "nimbus-sans", sans-serif;
-font-weight: 700;
-font-style: italic;
-Nimbus Sans Black
-font-family: "nimbus-sans", sans-serif;
-font-weight: 900;
-font-style: normal;
-Nimbus Sans Black Italic
-font-family: "nimbus-sans", sans-serif;
-font-weight: 900;
-font-style: italic;
-Nimbus Sans Cond L Regular
-font-family: "nimbus-sans-condensed", sans-serif;
-font-weight: 400;
-font-style: normal;
-Nimbus Sans Cond L Bold
-font-family: "nimbus-sans-condensed", sans-serif;
-font-weight: 700;
-font-style: normal;
-Nimbus Sans Cond L Black
-font-family: "nimbus-sans-condensed", sans-serif;
-font-weight: 900;
-font-style: normal;
-Nimbus Sans Extd Light
-font-family: "nimbus-sans-extended", sans-serif;
-font-weight: 300;
-font-style: normal;
-Nimbus Sans Extd Regular
-font-family: "nimbus-sans-extended", sans-serif;
-font-weight: 400;
-font-style: normal;
-Nimbus Sans Extd Bold
-font-family: "nimbus-sans-extended", sans-serif;
-font-weight: 700;
-font-style: normal;
-Nimbus Sans Extd Black
-font-family: "nimbus-sans-extended", sans-serif;
-font-weight: 900;
-font-style: normal; */
+.dayOne {
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 1vh;
+  margin-bottom: 5vh
+}
+.dayTwo {
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 1vh;
+  margin-bottom: 5vh
+}
+.dayThree {
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 1vh;
+  margin-bottom: 5vh
+}
+#active {
+  color: #bb1e02
+}
+#active:hover,
+a:hover {
+  color: #6b0606
+}
