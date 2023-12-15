@@ -4,7 +4,7 @@ by Sebastian Madriz 2023
 
 # Current Progress
 
-About 10% of the project is completed so far. I am still currently experimenting with different layout types and display types for the code of the website. Currently thinking of doing most of my div tags with flexbox but I'm also looking through other options. And most of the complementary designs needed for the merch page are completed. The next goal is to finish the poster design and set up the basic information with no styling on html.
+100% of this Project is completed
 
 # Project Overview
 
@@ -30,6 +30,12 @@ https://www.figma.com/file/6CW7Bj1yNxzW2Xu3HJJf1a/OHLM-wireframes?type=design&no
 Thank you to Unsplash for providing with free to use photography which were used on the wireframes created on Figma.
 https://unsplash.com/
 
+Thank you to Adobe Stocks for assets I used in this project!
+https://stock.adobe.com/
+
+Thank you to Boxicons for icons I used in this project!
+https://boxicons.com/
+
 Thank you to 'Web Dev Tutorials' for code I used in the project!
 https://youtu.be/k4EGA95ZK4o?si=oaDNt2OxTakXv2VR
 
@@ -38,3 +44,6 @@ https://youtu.be/uV8kH5RgSZU?si=2vPrug29fyUOOsl3
 
 Thank you to P A N T E R for a tutorial that helped make the poster!
 https://youtu.be/0gw8RdpYrFY?si=7SxPpwgtsale3pRJ
+
+Thank you to 'Saidul Islam' for code I used in the project!
+https://youtu.be/FaNTVjATYHQ?si=Y8Wz_hB7cXu7g2dk
